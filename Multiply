@@ -1,0 +1,11 @@
+public class Parameters{
+    public static void main(String[] args){
+        int ans = multiply(2,3);
+        System.out.println(ans);
+
+    }
+    static int multiply(int a, int b){
+        int multiply2 = a * b;
+        return multiply2;
+    }
+}
