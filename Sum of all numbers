@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Question {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int number;
+        int sum = 0;
+
+        System.out.println("Enter numbers to add (enter 0 to stop):");
+
+        while (true) {
+            number = input.nextInt();  // Take input from user
+
+            if (number == 0) {
+                break;  // Stop the loop if 0 is entered
+            }
+
+            sum += number;  // Add the number to the sum
+        }
+
+        System.out.println("Sum of all numbers: " + sum);
+    }
+}
