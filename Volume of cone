@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Question{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter Radius: ");
+        double radius = input.nextInt();
+        System.out.println("Enter height: ");
+        double height = input.nextInt();
+        double volume = (1.0 / 3) * Math.PI * radius * radius * height;
+        System.out.println("Volume of cone is: " + volume);
+
+    }
+}
