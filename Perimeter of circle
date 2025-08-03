@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Question{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter radius: ");
+        double r = input.nextDouble();
+        double perimeter= 2 * 3.14 * r;
+        System.out.println("perimeter of circle is: " + perimeter);
+    }
+}
